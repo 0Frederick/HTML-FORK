@@ -7,8 +7,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Forms</title>
 </head>
-<body>
+
+<body style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
   <form action="" method="post">
+    <label for="full-name" style="font-weight: bold;">Full Name</label>
+    <br>
+    <input type="text" id="full-name" placeholder="Jane Doe" style="color:rgb(20, 127, 220)">
+    <br>
+
+<!-- -->
+    <label for="email" style="font-weight: bold;">Email Adress</label>
+    <br>
+    <input type="email" id="email" placeholder="jane_doecita@gmail.com" style="color:rgb(20, 127, 220);">
+    <br>
+
+<!-- -->
+    <label for="telephone" style="font-weight: bold;">Phone Number</label>
+    <br>
+    <input type="tel" id="telephone" placeholder="722-5263-363" style="color:rgb(20, 127, 220)">
+    <br>
+
+<!-- -->
+    <label for="date" style="font-weight: bold;">Date</label>
+    <br>
+    <input type="date" id="date" style="color:rgb(20, 127, 220)">
+    <br>
+
+<!-- -->
+    <label for="num-guests" style="font-weight: bold;">Number of guests</label>
+    <br>
+    <select name="num-guests" id="num-guests">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+    </select>
+    <br>
+
+<!-- -->
+    <button type="submit">Submit</button>
 
   </form>
 </body>
