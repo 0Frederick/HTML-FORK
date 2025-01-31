@@ -35,64 +35,88 @@
   <h1 style="align-items: center;">Flower Delivery Form</h1>
   
   <!--RECIPIENT DETAILS-->
+  <div>
   <h2 style="font-size: 20px;">Recipient Details</h2>
   <form action="" style="font-weight: bold;">
     
     <!--Name-->
+    <div>
     <label for="full-name">Full Name</label>
     <br>
     <input type="text" id="full-name">
     <br><br>
+    </div>
 
     <!--Telephone-->
+    <div>
     <LABel for="telephone">Telephone Number</LABel>
     <br> 
     <input type="tel" id="telephone">
     <br><br>
+    </div>
     
     <!--Address-->
+    <div>
     <label for="address">Address</label>
     <br>
     <input type="text" id="address">
     <br><br>
+    </div>
+  </div>
+
   
   <!--ORDER-->
+  <div>
   <h2 style="font-size: 20px;">Order</h2>
     
     <!--Bouquet Type-->
+    <div>
     <label for="bouq-type">Bouquet Type</label>
     <br>
     <select name="bouq-type" id="bouq-type" style="background-color: white;">
-      <option value="25">Basic Bouquet - $24.99</option>
-      <option value="50">Premium Bouquet - $49.99</option>
-      <option value="70">Premium Bouquet + Chocolate - $69.99</option>
+      <option value="basic">Basic Bouquet - $24.99</option>
+      <option value="basic">Premium Bouquet - $49.99</option>
+      <option value="basic">Premium Bouquet + Chocolate - $69.99</option>
     </select>
     <br><br>
+  </div>
+</div>
+  
 
   <!--SENDER DETAILS-->
+  <div>
   <h2 style="font-size: 20px;">Recipient Details</h2>
   <form action="" style="font-weight: bold;">
   
     <!--Name-->
-    <label for="full-name">Full Name</label>
+    <div>
+    <label for="sender-name">Full Name</label>
     <br>
-    <input type="text" id="full-name">
+    <input type="text" id="sender-name">
     <br><br>
-      
+    </div>
+
     <!--Email Adress-->
+    <div>
     <label for="email">Email Address</label>
     <br>
     <input type="email" id="email">
     <br><br><br><br>
+    </div>
 
     <!--Message-->
+    <div>
     <label for="message">Message</label>
     <br>
-    <input type="text" id="message" style="height: 100px;">
+    <textarea name="message" id="message" style="width:255px;"></textarea>
     <br>
-  
+    </div>
+  </div>
+
   <!--SUBMIT BUTTON-->
+  <div>
   <button type="submit">Check Out</button>
+  </div>
   </form>
 </body>
 
