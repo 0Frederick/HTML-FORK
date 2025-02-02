@@ -45,8 +45,9 @@
         avatar: '../assets/avatar-4.png'
       }
     ];
-
-    social.forEach(user =>{
+    
+    const wrapper = document.querySelector('.wrapper')
+    social.forEach(user => {
       let socialWrapper = document.createElement('div');
       socialWrapper.style = 'border: 1px solid black';
 
@@ -54,7 +55,8 @@
       avatar.src = user.avatar;
       avatar.alt = user.name;
 
-      socialWrapper.appendChild
+      socialWrapper.appendChild(avatar);
+      wrapper.appendChild(socialWrapper);
     })
 
   </script>
